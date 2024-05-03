@@ -33,7 +33,7 @@ class Queue:
         self.length += 1
 
     def deque(self):
-        if self.head:
+        if self.length == 0:
             return None
 
         old_head = self.head

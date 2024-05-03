@@ -1,8 +1,8 @@
 from typing import Optional
 
 class QNode:
-    value = object | None
-    next: Optional[None]
+    value = Optional[object]
+    next: Optional[object]
 
     def __init__(self, value):
         self.value = value

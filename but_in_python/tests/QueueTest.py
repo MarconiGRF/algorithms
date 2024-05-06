@@ -1,6 +1,6 @@
 import unittest
 
-from but_in_python.sources.Queue import Queue
+from but_in_python.sources.MarconisQueue import Queue
 
 
 class QueueTest(unittest.TestCase):

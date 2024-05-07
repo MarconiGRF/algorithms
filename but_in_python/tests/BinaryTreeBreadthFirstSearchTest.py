@@ -4,7 +4,7 @@ from but_in_python.sources.BinaryTreeBreadthFirstSearch import bfs
 from but_in_python.tests.auxiliary.tree import get_test_tree_1
 
 
-class BinaryTreeBreadthFirstSearch(unittest.TestCase):
+class BinaryTreeBreadthFirstSearchTest(unittest.TestCase):
     tree = get_test_tree_1()
 
     def test_bfs(self):

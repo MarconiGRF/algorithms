@@ -11,4 +11,4 @@ def bs_list(haystack, needle):
         else:
             low = mid + 1
 
-    return False;
+    return False
